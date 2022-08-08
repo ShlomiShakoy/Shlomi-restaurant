@@ -6,7 +6,7 @@ Main aspects(append video links):
 Using JSON in order to store passwords and emails in localStorage. I upgraded that with some additions:
 https://user-images.githubusercontent.com/103436003/183514666-eb4ce1f1-59aa-4291-895f-61dec3cd824e.mp4
 
-Using functionality in the delivery menu page:
+Using functionality in the delivery menu page, using JSON for storing the total price in localStorage:
 https://user-images.githubusercontent.com/103436003/183516325-ccc38bb2-8646-4730-af62-e36078c4491e.mp4
 
 Reservation page with email sending button. It sends to my email the details.
