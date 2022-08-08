@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery menu</title>
+    <link rel="stylesheet" type="text/css" href="CSS\menu.css">
+    <link rel="icon" href="https://images.cdn1.stockunlimited.net/preview1300/food-and-beverages-menu-logo-icon_1710151.jpg" type="image/x-icon">
+</head>
+<body>
+    <div style="text-align: center; font-family:Arial, Helvetica, sans-serif; background-color: bisque;">
+        <header id="main-header"><em>Shlomi's delivery</em></header><br><br>
+        <table border="0px" align="center" width="75%" style="background-color:azure;">
+            <tr>
+                <td>
+                    <p style="font-size:1.2em; color: red;"><strong>Starters:</strong></p><p id="amountStarters" style="color: green;">0</p>
+                    <div style="font-size:0.7em">
+                    <br><strong>
+                    <p>Cauliflower</p><p id="amountCauliflower">0</p>
+                    <br>
+                    <p>Soup</p><p id="amountSoup">0</p>
+                    <br>
+                    <p>Bread</p><p id="amountBread">0</p>
+                    <br>
+                    <p>Chips</p><p id="amountChips">0</p>
+                    <br>
+                    <p>Falafel</p><p id="amountFalafel">0</p></strong>
+                    <br><br><br><br><br><br><br><br><br><br>
+                </td>
+            </div>        
+                <td>
+                    <p style="font-size:1.2em; color: red;"><strong>Salads:</strong></p><p id="amountSalads" style="color: green;">0</p>
+                    <br>
+                    <div style="font-size:0.7em;"><strong>
+                    <p>Pasta salad</p><p id="amountPastaSalad">0</p>
+                    <br>
+                    <p>Caesar salad</p><p id="amountCaesarSalad">0</p>
+                    <br>
+                    <p>Tomato salad</p><p id="amountTomatoSalad">0</p>
+                    <br>
+                    <p>Chicken salad</p><p id="amountChickenSalad">0</p></strong>
+                    <br>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>    
+                </td>
+            </div>
+                <td><br><br>
+                    <p style="font-size:1.2em; color: red;"><strong>Main dishes:</strong></p><p id="amountDishes" style="color: green;">0</p>
+                    <br>
+                    <div style="font-size:0.7em;"><strong>
+                        <p>Hamburger</p><p id="amountHamburger">0</p>
+                        <br>
+                        <p>Sushi</p><p id="amountSushi">0</p>
+                        <br>
+                        <p>Pizza</p><p id="amountPizza">0</p>
+                        <br>
+                        <p>Steak</p><p id="amountSteak">0</p> 
+                        <br>
+                        <p>Fish</p><p id="amountFish">0</p>
+                        <br>
+                        <p>Bolognese pasta</p><p id="amountBolognese">0</p> 
+                        <br>
+                        <p>Schnitzel</p><p id="amountSchnitzel">0</p></strong>
+                        <br>
+                </td>
+                <td>
+                    <p style="font-size:1.2em; color: red;"><strong>Desserts:</strong></p><p id="amountDesserts" style="color: green;">0</p><br>
+                    <div style="font-size:0.7em;"><strong>
+                        <p>Mousse cake</p><p id="amountMousse">0</p>
+                        <br>
+                        <p>Donuts</p><p id="amountDonut">0</p>
+                        <br>
+                        <p>chocolate cake</p><p id="amountChocolate">0</p></strong>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    </div>
+                </td>
+                <td><br><br>
+                    <p style="font-size:1.2em; color: red;"><strong>Drinks:</strong></p><p id="amountDrinks" style="color: green;">0</p><br>
+                    <div style="font-size:0.7em;"><strong>
+                        <p>Coke</p><p id="amountCoke">0</p>
+                        <br>
+                        <p>Zero coke</p><p id="amountZeroCoke">0</p>
+                        <br>
+                        <p>Sprite</p><p id="amountSprite">0</p>
+                        <br>
+                        <p>Zero sprite</p><p id="amountZeroSprite">0</p>
+                        <br>
+                        <p>Soda</p><p id="amountSoda">0</p></strong>
+                        <br><br><br><br><br><br><br><br><br><br><br><br>
+                    </div>
+                </td>
+                <td><br><br><br><br><br><br><br><br><br><br><br>
+                    <p style="font-size:1.2em; color: red;"><strong>Total price:</strong></p>
+                    
+                    <p id="totalPrice" style="color:green; font-size:2em">0</p><br><br><br><br><br><br><br>
+                    <button id="resetButton" type="button" onclick="refreshtFunc()">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    <div style="text-align: center; background-color: aquamarine;">
+        <br>
+    <button id="delivery" type="button" onclick="delivery()">Delivery</button>
+    <div></div>
+    <br>
+    <button id="TA" type="button" onclick="TA()">TA</button>
+    <br><br>
+    </div>
+    <div style="background-color:gainsboro;"> 
+        <br><br>
+        <table border="0px" align="center" width="87%">
+            <div class="container">
+        <tr>
+            <td>
+                <header id="Starters">Starters:</header><br><br><td></td><td></td><td></td>
+                </td>
+                <td>
+                    <header id="start">Cauli-<br>flower.<br> Price: 35 NIS.</header><br>
+                </td>
+                <td></td><td></td>
+            <td>
+                <button id="prevSrart" type="button" onclick="changePrevStart()"></button>
+            </td>
+        <td>
+            <img src="images\kruvit.png" id="startImg">
+        </td>
+        <td>
+            <button id="nextStart" type="button" onclick="changeNextStart()"></button>
+        </td>
+        <td></td><td></td><td></td><td></td><td></td>
+        <td>
+            <div>
+            <button id="addStarter" type="button" onclick="addStarter()">Add</button><br><br>
+            <button id="removeStarter" type="button" onclick="removeStarter()">Remove</button>
+        </div>
+        </td>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td></td>
+    </tr>
+    </div>
+    </table>
+    <br><br><br><hr><br><br><br>
+    <table border="0px"align="center" width="80%">
+        <tr>
+        <div>
+            <td>
+            <header id="Salads">Salads:</header><br><br>
+        </td><td></td><td></td><td></td>
+        <td>
+            <header id="salad">Pasta salad.<br> Price: 55 NIS.</header><br>
+        </td>
+        <td>
+            <button id="prevSalad" type="button" onclick="changePrevSalad()"></button>
+        </td>
+        <td>
+            <img src="images\pastaSalad.png" id="saladImg">
+        </td>
+            <td>
+                <button id="nextSalad" type="button" onclick="changeNextSalad()"></button>
+            </td>  
+            <td></td><td></td><td></td><td></td><td></td><td></td>
+            <td>
+                <button id="addSalad" type="button" onclick="addSalad()">Add</button><br><br>
+                <button id="removeSalad" type="button" onclick="removeSalad()">Remove</button>
+            </td>
+    </tr>   
+</div>
+    </table>
+    <br><br><br><hr><br><br><br>
+    <table border="0px"align="center" width="75%">
+        <tr>
+            <td>
+            <header id="main-dishes">Main-dishes:</header><br><br><td></td><td></td><td></td>
+        </td>
+        <td>
+            <header id="main">Hamburger.<br> Price: 69 NIS.</header><br>
+        </td>
+        <td>
+            <button id="prevMain" type="button" onclick="changePrevMain()"></button>
+        </td>
+        <td>
+            <img src="images\hamburger.png" id="mainImg">
+        </td>
+            <td>
+                <button id="nextMain" type="button" onclick="changeNextMain()"></button>
+            </td>
+            <td></td><td></td><td></td>
+            <td>
+                <button id="addMainDish" type="button" onclick="addMainDish()">Add</button><br><br>
+                <button id="removeMainDish" type="button" onclick="removeMainDish()">Remove</button>
+            </td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>   
+    </table>
+    <br><br><br><hr><br><br><br>
+    <table border="0px" align="center" width="92%">
+        <tr>
+            <td>
+                <header id="desserts">Desserts:</header><br><br><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            </td>
+            <td>
+                <header id="dessert">Mousse<br>cake.<br> Price: 29 NIS.</header><br>
+            </td>
+            <td></td><td></td><td></td>
+            <td>
+                <button id="prevdessert" type="button" onclick="changePrevDessert()"></button>
+            </td>
+            <td>
+                <img src="images\mousseCake.png" id="dessertImg">
+            </td>
+                <td>
+                    <button id="nextDessert" type="button" onclick="changeNextDessert()"></button>
+                </td>
+                <td></td><td></td><td></td>
+                <td>
+                    <button id="addDessert" type="button" onclick="addDessert()">Add</button><br><br>
+                    <button id="removeDessert" type="button" onclick="removeDessert()">Remove</button>
+                </td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+    </table>
+    <br><br><br><hr><br><br><br>
+    <div style="text-align: center; font-family:Arial, Helvetica, sans-serif;">
+    <table border="0px" align="center" width="85%">
+        <tr>
+            <td>
+                <header id="drinks">Drinks:</header><br><br><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+            </td>
+            <td>
+                <header id="drink">Coke.<br> Price: 13 NIS.</header><br>
+            </td>
+            <td></td>
+            <td>
+                <button id="prevdrink" type="button" onclick="changePrevDrink()"></button>
+            </td>
+            <td>
+                <img src="images\coke.png" id="drinkImg">
+            </td>
+                <td>
+                    <button id="nextdrink" type="button" onclick="changeNextDrink()"></button>
+                </td>
+            </td>
+            <td></td><td></td><td></td>
+            <td>
+                <button id="addDrink" type="button" onclick="addDrink()">Add</button><br><br>
+                <button id="removeDrink" type="button" onclick="removeDrink()">Remove</button>
+            </td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+    </table>
+</div>
+    <script src="homePageJS.js"></script>
+    <br>
+</body>
+</html>

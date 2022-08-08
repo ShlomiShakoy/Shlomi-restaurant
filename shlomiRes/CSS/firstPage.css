@@ -1,0 +1,74 @@
+.container{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+#mainHeader{
+font-size: 50px;
+font-weight: 800;
+color: brown;
+background-color: blanchedalmond;
+position: relative;
+width:65%;
+height:15%;
+left: 20%;
+}
+body{
+    background-image: url('../images/resturant.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden
+}
+#divButtons
+{
+    text-align: center;
+    position: relative;
+}
+#Loginbutton{
+position: relative;
+font-size: 50px;
+top:20px;
+background-color: green;
+cursor: pointer;
+}
+#Signupbutton{
+    position: relative;
+    font-size: 50px;
+    top:40px;
+    background-color: orange;
+    cursor: pointer;
+}
+#guestbutton{
+    position: relative;
+    font-size: 50px;
+    left: 0%;
+    top:60px;
+    background-color:red;
+    cursor: pointer;
+}
+#prohibition{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: white;
+    color: red;
+    width: 48%;
+    position: relative;
+    left: 26%;
+    top: 50px;
+}
+.inline{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+@media screen and (max-width: 600px){
+    background-image{
+        float: none;
+        width: 100%;
+    }
+}

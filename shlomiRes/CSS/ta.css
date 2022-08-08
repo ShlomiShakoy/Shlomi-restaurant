@@ -1,0 +1,63 @@
+#main-div{
+    text-align: center;
+}
+body{
+    background-color: green;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#TADetails{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.55em;
+    color: red;
+    font-weight: 750;
+}
+#remindButton{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: aqua;
+    border-color: white;
+    cursor: pointer;
+}
+#remindButton:hover{
+    color:white;
+    border-color:brown
+}
+#resLabel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+#TAImg{
+    height: 10%;
+    width:100%;
+    display: table;
+}
+#payNow{
+    font-size: 1.4em;
+    cursor: pointer;
+    background-color: red;
+    text-align: center;
+    padding-right: 14%;
+    padding-left: 14%;
+}
+#payNow:hover{
+    color:white;
+    border-color:brown
+}
+#guarentee{
+    font-size: 1.4em;
+    cursor: pointer;
+    background-color: orange;
+}
+#guarentee:hover{
+    color:white;
+    border-color:brown
+}
+#expiry-date-input{
+    position: relative;
+    left: 2.1%;
+}
+#card-name-input{
+    position: relative;
+    left: -1.1%;
+}

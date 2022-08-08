@@ -1,0 +1,101 @@
+body{
+    align-items: center;
+    position: relative;
+    background-image: url('../images/wine.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.main-form{
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.82em;
+}
+#phoneNumber{
+    position: relative;
+    left:-1.2%;
+}
+#telLabel{
+    position: relative;
+    left: -1.2%;
+}
+#emailLabel{
+    position: relative;
+    right: -1%;
+}
+#email{
+    position: relative;
+    left: 1%;
+}
+#resLabel{
+    position: relative;
+    left: -0.3%;
+}
+#select{
+    width: 13%;
+}
+#amount{
+    width: 12.7%;
+    position: relative;
+    left: 0.6%;
+}
+#dateLabel{
+    position: relative;
+    left: 0.41%;
+}
+#date{
+    width: 12.8%;
+    position: relative;
+    left: 1.4%;
+}
+#labelTime{
+    position: relative;
+    left: -0.1%;
+}
+#note{
+    position: relative;
+    top:-1em;
+    left: -1.5%;
+}
+textArea{
+    resize: none;
+    position: relative;
+    left: -1.1%;
+}
+#time{
+    width: 12.6%;
+    position: relative;
+    left: 1.2%;
+}
+#main-header{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 2.5em;
+    font-weight: 800;
+}
+#submitInput{
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    padding-right: 2%;
+    padding-left: 2%;
+    position: relative;
+    left: 2%;
+}
+#submitInput:hover{
+    color:white;
+    border-color: white;
+}
+.inline{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 0.8em;
+    position: relative;
+}

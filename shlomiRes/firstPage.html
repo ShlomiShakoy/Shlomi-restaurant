@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" href="CSS\firstPage.css">
+    <link rel="icon" href="https://mpng.subpng.com/20180919/cjl/kisspng-service-brand-company-clip-art-food-contact-us-pinku-gupta-cook-and-caters-5ba310e51a1d55.085916261537413349107.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.css" integrity="sha512-phGxLIsvHFArdI7IyLjv14dchvbVkEDaH95efvAae/y2exeWBQCQDpNFbOTdV1p4/pIa/XtbuDCnfhDEIXhvGQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="containerDate animate__animated animate__backInDown">
+        <p id="showDay" class="inline"><p id="showMonth" class="inline"></p><p id="showYear" class="inline"></p></p>
+    </div>
+    <div class="container animate__animated animate__fadeInDown">
+        <header id="mainHeader">
+            Welcome to Shlomi's res
+        </header>
+    </div>
+    <br>
+    <div id="divButtons">
+        <button id="Loginbutton" class="login animate__animated animate__zoomIn animate__delay-1s" type="button" title="Press to login" onclick="OpenLogin()">Login</button><br>
+        <button id="Signupbutton" class="signIn animate__animated animate__delay-2s animate__rollIn" type="button" title="Press to sign up" onclick="OpenSignup()">Sign up</button><br>
+        <button id="guestbutton" class="Guest animate__animated animate__delay-3s animate__jackInTheBox" type="button" title="Press to login as guest" onclick="OpenLoginGuest()">Login as guest</button>
+        <br><br><br>
+        <p id="prohibition" class="prohibition animate__animated animate__delay-3s animate__fadeInBottomRight">*You won't be able to reserve a place, order, making TA. <strong>as a guest</strong></p>
+    </div>
+    <script src="homePageJS.js"></script>
+</body>
+</html>

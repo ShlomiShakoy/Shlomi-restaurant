@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery</title>
+    <link rel="stylesheet" type="text/css" href="CSS\delivery.css">
+    <link rel="icon" href="https://cdn1.iconfinder.com/data/icons/logistics-transportation-vehicles/202/logistic-shipping-vehicles-002-512.png" type="image/x-icon">
+</head>
+<body>
+    <div id="main-div">
+    <table border="0px" align="left" width="70%" style="background-color:black;">
+        <tr>
+            <td></td>
+            <td style="background-color: pink;">
+        <p id="deliveryDetails">Delivery details:</p>
+    </td><td></td>
+    <tr></tr>
+    <td style="background-color:black; color:white">
+    <label id="resLabel">City</label><br>
+    <select id="selectRes" style="text-align:center; width:55%;">
+        <option>Tel-Aviv</option>
+        <option>Ramat-Gan</option>
+        <option>Givataim</option>
+        <option>Haifa</option>
+        <option>Netanya</option>
+        <option>Hadera</option>
+        <option>Hertzeliya</option>
+        <option>Raanana</option>
+        <option>Kefar-Saba</option>
+    </select><br><br>
+    <label id="address">Full address</label><br>
+    <input type="text" id="fullAddress"><br><br>
+    <label style="font-family: Arial, Helvetica, sans-serif; font-size: 1em;">Phone number</label><br>
+    <input type="number" id="numberPhone"><br><br>
+    <label style="font-family: Arial, Helvetica, sans-serif; font-size: 1em;">Full name</label><br>
+    <input type="text" id="fullName"><br><br>
+    <label id="notice">Notice(permittion)</label><br>
+    <input><br><br>
+    <button id="remindButton" type="button" onclick="remindPrice()">Don't remember the price? Press!</button>
+        <p id="totalPrice2" style="color:white"></p>
+    </td>
+    <td style="background-color: pink; background-size: cover;">
+        <img src="images\delivery.png" id="TAImg">
+</td><tr></tr>
+<tr></tr>
+    </div>
+</tr>
+</table>
+<table border="0px"align="center" style="background-color:green;"> 
+    <tr>
+        <td style="background-color: green;">
+            <p style="font-family:sans-serif; font-size:1.2em;"><strong>Credit card details:</strong></p>
+            <p>Attention: credit card details<strong> must be filled</strong>. Make your decision wether implement the payment now or keep it as guarantee and you will pay by cash at the resturant.</p>
+        </td>
+        <tr></tr>
+        <td><hr><br>
+            <label style="font-family:arial;">Card type:</label> 
+            <select id="selectVisa" style="text-align:center; position: relative; width: 46%; left: 2.69%;">
+                <option>Visa</option>
+                <option>Diners</option>
+                <option>American express</option>
+            </select><br><br>
+            <label style="font-family:arial;">Card number:</label> 
+        <input id="card-num-input" placeholder="xxxxx...xxx" type="number"><br>
+        <br>
+        <label style="font-family:arial;">Expiry date:</label> 
+        <input id="expiry-date-input" placeholder="xxxx" type="number"><br><br>
+        <label style="font-family:arial; font-size: 0.9em;">Secret number:</label> 
+        <input id="secret-number-input" placeholder="xxx" type="password" style="position: relative; left: 0.7%;"><br>
+        <br>
+        <label style="font-family:arial; font-size: 0.8em;">Owner's card name:</label>
+        <input id="card-name-input" placeholder="Card name" type="text"><br><br>
+        </td>
+        <tr></tr>
+        <Td><hr>
+        <p style="font-family: arial;">*Delivery time between 60-90 minutes.</p><br>
+        <button id="payNow" type="button" onclick="alertPay2()">Pay now</button><br><br>
+        <button id="guarentee" type="button" onclick="alertGuarentee2()">Use as guarentee</button>
+    </Td>
+    </div>
+</tr>
+</table>
+    <script src="homePageJS.js"></script>
+</body>
+</html>

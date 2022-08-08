@@ -1,0 +1,362 @@
+body{
+    background-color:gainsboro;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    margin-bottom: 0;
+    display: block;
+}
+#main-header{
+    text-align: center;
+    color:darkviolet;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.4em;
+    font-style: italic;
+    text-decoration:underline;
+}
+#Starters{
+    text-align: center;
+    color: deeppink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2em;
+}
+#start{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: relative;
+    color: black;
+}
+#startImg{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background-color:gainsboro;
+}
+#nextStart{
+position: relative;
+    color: white;
+    font-size: 20px;
+    background-image: url('../images/rightArrow.jpg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 36px;
+    width: 70px;
+    cursor: pointer;
+}
+#prevSrart{
+    position: relative;
+    color: white;
+    background-image: url('../images/leftArrow.jpg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 36px;
+    width: 70px;
+    cursor: pointer;
+}
+#Salads{
+    text-align: center;
+    color: deeppink;
+    font-size: 2.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#salad{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: relative;
+    color: black;
+}
+#saladImg{
+    position: relative;
+ display: block;
+}
+#nextSalad{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    background-image: url('../images/rightArrow.jpg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 36px;
+    width: 70px;
+    cursor: pointer;
+}
+#prevSalad{
+    position: relative;
+    color: white;
+    background-image: url('../images/leftArrow.jpg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 36px;
+    width: 70px;
+    cursor: pointer;
+}
+#prevMain{
+    position: relative;
+    color: white;
+    background-image: url('../images/leftArrow.jpg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 36px;
+    width: 70px;
+    cursor: pointer;
+}
+#nextMain{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    background-image: url('../images/rightArrow.jpg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 36px;
+    width: 70px;
+    cursor: pointer;
+}
+#main{
+font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: relative;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#main-dishes{
+    text-align: center;
+    color: deeppink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#prevdessert{
+    position: relative;
+    color: white;
+    background-image: url('../images/leftArrow.jpg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 36px;
+    width: 70px;
+    cursor: pointer;
+}
+#nextDessert{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    background-image: url('../images/rightArrow.jpg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 36px;
+    width: 70px;
+    cursor: pointer;
+}
+#desserts{
+    text-align: center;
+    color: deeppink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2em;
+}
+#dessert{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: relative;
+    color: black;
+}
+#drinks{
+    text-align: center;
+    color: deeppink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2em;
+}
+#drink{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: relative;
+    color: black;
+}
+#prevdrink{
+    position: relative;
+    color: white;
+    background-image: url('../images/leftArrow.jpg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 36px;
+    width: 70px;
+    cursor: pointer;
+}
+#nextdrink{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    background-image: url('../images/rightArrow.jpg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 36px;
+    width: 70px;
+    cursor: pointer;
+}
+#total-price{
+    position: sticky;
+    color: cadetblue;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+}
+#delivery{
+    text-align: center;
+    font-size: 1.5em;
+    background-color: khaki;
+    cursor: pointer;
+    width: 20%;
+}
+#TA{
+    font-size: 1.5em;
+    background-color: fuchsia;
+    cursor: pointer;
+    padding-left: 2.9%;
+    padding-right: 2.9%;
+    width: 20%;
+}
+#resetButton{
+    font-size: 1.2em;
+    background-color: red;
+    cursor: pointer;
+    width: 85%;
+}
+#resetButton:hover{
+    color:white;
+    border-color: white;
+}
+#TA:hover{
+    color:white;
+    border-color: white;
+}
+#delivery:hover{
+    color: white;
+    border-color: white;
+}
+#addStarter{
+    cursor: pointer;
+    background-color: green;
+    font-size: 1.2em;
+    padding-right: 45%;
+    text-align: center;
+    padding-left: 27%;
+    padding-right: 27%;
+}
+#addStarter:hover{
+    color: white;
+    border-color: white;
+}
+#removeStarter{
+    cursor: pointer;
+    background-color: red;
+    font-size: 1.2em;
+}
+#removeStarter:hover{
+    color: white;
+    border-color: white;
+}
+#addSalad{
+    cursor: pointer;
+    background-color: green;
+    font-size: 1.2em;
+    padding-right: 45%;
+    text-align: center;
+    padding-left: 27%;
+    padding-right: 27%;
+}
+#addSalad:hover{
+    color: white;
+    border-color: white;
+}
+#removeSalad{
+    cursor: pointer;
+    background-color: red;
+    font-size: 1.2em;
+}
+#removeSalad:hover{
+    color: white;
+    border-color: white;
+}
+#addMainDish{
+    cursor: pointer;
+    background-color: green;
+    font-size: 1.2em;
+    padding-right: 45%;
+    text-align: center;
+    padding-left: 27%;
+    padding-right: 27%;
+}
+#addMainDish:hover{
+    color: white;
+    border-color: white
+}
+#removeMainDish{
+    cursor: pointer;
+    background-color: red;
+    font-size: 1.2em;
+}
+#removeMainDish:hover{
+    color: white;
+    border-color: white
+}
+#addDessert{
+    cursor: pointer;
+    background-color: green;
+    font-size: 1.2em;
+    padding-right: 45%;
+    text-align: center;
+    padding-left: 27%;
+    padding-right: 27%;
+}
+#addDessert:hover{
+    color: white;
+    border-color: white
+}
+#removeDessert{
+    cursor: pointer;
+    background-color: red;
+    font-size: 1.2em;
+}
+#removeDessert:hover{
+    color: white;
+    border-color: white
+}
+#addDrink{
+    cursor: pointer;
+    background-color: green;
+    font-size: 1.2em;
+    padding-right: 45%;
+    text-align: center;
+    padding-left: 27%;
+    padding-right: 27%;
+}
+#addDrink:hover{
+    color: white;
+    border-color: white
+}
+#removeDrink{
+    cursor: pointer;
+    background-color: red;
+    font-size: 1.2em;
+}
+#removeDrink:hover{
+    color: white;
+    border-color: white
+}

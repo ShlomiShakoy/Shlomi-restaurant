@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="CSS\homePageLoggedIn.css">
+    <link rel="icon" href="https://media.istockphoto.com/vectors/table-knife-and-fork-vector-vector-id1141797008?s=612x612" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.css" integrity="sha512-phGxLIsvHFArdI7IyLjv14dchvbVkEDaH95efvAae/y2exeWBQCQDpNFbOTdV1p4/pIa/XtbuDCnfhDEIXhvGQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <p id="showDay" class="inline"><p id="showMonth" class="inline"></p><p id="showYear" class="inline"></p></p>
+    <table border="0px" align="center">
+    <div class="containerDate">
+        <tr>
+            <td>
+    </div>
+</td>
+</tr>
+<tr>
+<td>
+    <div class="container animate__animated animate__backInUp">
+        <header id="mainHead"><em>Shlomi's res</em></header>
+        <div class="links">
+        <a href="#aboutHeader">About</a>
+        <a href="#resturantsHeader">Resturants</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#secondDiv">Delivery/menu</a>
+        <a href="#contact-div">Contact</a>        
+    </div>
+</td>
+</tr>
+</table>
+    <div class="container2 animate__animated animate__flip">
+        <header id="aboutHeader">About</header><hr>
+        <p id="aboutParagraph">
+            I was born and raised in Tel-Aviv in 1999.<br>
+            My desire for food cooking started already as a child. My first dish I made when I was 4 years old.<br>
+            Everything I learned as a child was from my grandmothers that have uniqe kitchen and wonderful dishes.<br>
+            In the army service, I cooked to my team, and most of them permanently said:<strong><em>"what would we do without you!"</em></strong>.That gaves me the desire to continue and persists in my dream! 
+            In these days, I am working on my next resturant in Jerusalem.<br>I hope that you will enjoy this website.<br><strong>Enjoy!</strong>
+        </p>
+    </div>
+    <TABLE align="center" BORDER="0pX" WIDTH=60% class="res animate__animated animate__fadeInDown animate__delay-1s">      
+        <div>
+        <TR>
+            <TD>
+                <button id="prevRes" type="button" onclick="changePrevRes()"></button>
+            </TD>
+            <TD>
+                <div class="container2"><br>
+                    <header id="resturantsHeader">Resturants</header><hr>
+                    <header id="resturant">Tel-Aviv</header><br>
+                    <P><img src="images\Tel-Aviv.png" id="resturantImg"></P>
+                    <p id="description">The resturant was opened in 2020. Located on 'David-Shaul' street, 17, Tel-Aviv.</p>
+                </div>        
+                </TD>
+                        <TD>
+                            <button id="nextRes" type="button" onclick="changeNextRes()"></button>  
+                        </TD>
+        </TR>
+        <td></td>
+    <td>
+    <button type="button" id="reservationButton" title="Press in order to reserve place!" onclick="openReservation()">Reserve a place!</button>
+</td>
+</TABLE>
+</div>
+    <br><br><br>
+    <table border="0px" width="60%" align="center" class="gallery animate__animated animate__fadeInDown animate__delay-2s">
+        <div id="gallery">
+        <tr>
+        <td>
+            <button id="prev" type="button" onclick="changePrev()"></button>
+    </td>
+    <td>
+        <header id="galleryHeader">Gallery</header><hr><br>
+       <p><img src="images\fishandchips.png" id="foodImg"></p>
+    </td>
+    <td>
+        <button id="next" type="button" onclick="changeNext()"></button>
+    </td>
+    </div>
+</tr>
+</table>
+        <div id="secondDiv" class="secondDiv animate__animated animate__fadeInDown animate__delay-2s">
+         <header id="choosingParagraph">
+        Delivery/menu<hr>
+        </header>
+    <br>
+            <header id="Delivery"><strong>Delivery:</strong></header><br>
+            <a href="deliveryMenu.html"><img id="deliveryImg" src="images\delivery2.png"></a>
+            <header id="menu"><strong>Menu:</strong></header><br>
+            <a href="menu.html"><img id="menuImg" src="images\menu.jpg"></a>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="contact-div" class="contact animate__animated animate__fadeInDown animate__delay-2s"><br><br><br><br><br>
+        <header id="contact">contact us</header><hr>
+        <ul id="list">
+            <li><a href="https://www.facebook.com/" id="facebook">Faceebok</a></li><br>
+            <li><a href="https://twitter.com/?lang=he" id="instagram">Instagram</a></li><br>
+            <li><a href="https://www.instagram.com/" id="twitter">Twitter</a></li><br>
+            <li id="fax"><strong>Fax:</strong> 07749098747</li><br>
+            <li id="phone"><strong>Phone number</strong> for reservations: 05467596854. <strong>Availibility between:</strong> Sunday-Thursday:11:00-01:00, Friday:12:00-23:00, Saturday:10:00-00:00.</li><br>
+        </ul>
+    </div>
+    <script src="homePageJS.js"></script>
+</body>
+</html>

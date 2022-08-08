@@ -1,0 +1,98 @@
+#mainHead{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightcoral;
+    font-size: 4em;
+    font-weight: 800;
+}
+body{
+    background-color: beige;
+    max-width: 100%;
+    overflow-x: hidden
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#aboutHeader{
+    font-size: 2em;
+    color: seagreen;
+}
+#choosingParagraph{
+    text-align: center;
+    font-size: 1.8em;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#viewImg{
+    width: 40%;
+    border-color: brown;
+    border-style: solid;
+    border-width: 4px;
+    position: relative;
+    left: 30%;
+}
+#ourMenuHeader{
+font-family: Arial, Helvetica, sans-serif;
+position: relative;
+font-size: 1.8em;
+left: 44%;
+color: brown;
+}
+#noticeParagraph{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+#cookImg{
+    position: relative;
+    left: 27%;
+}
+#chooseResturantDiv
+{
+    text-align: center;
+}
+#Loginbutton{
+    position: relative;
+    left: 90%;
+    font-size:27px;
+    background-color: greenyellow;
+    top:0px
+}
+#Signupbutton{
+    position: relative;
+    left: 90%;
+    font-size:27px;
+    background-color: rgba(255, 0, 0, 0.512);
+    top:0%;
+}
+#welcome{
+    font-size: 20px;
+}
+.inline{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#registerButton{
+background-color: red;
+font-size: 20px;
+cursor: pointer;
+}
+#registerButton:hover{
+    color:white;
+    border-color: white;
+}
+#contact{
+position: relative;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size:4em;
+font-weight: 800;
+color:peru;
+}
+li::marker{
+    content: '👋';
+}
+#contact-div{
+    position: relative;
+    text-align: center;
+}

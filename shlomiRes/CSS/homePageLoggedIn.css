@@ -1,0 +1,222 @@
+#mainHead{
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightcoral;
+    font-size: 3.5em;
+    font-weight: 700;
+    bottom: 70px;
+}
+body{
+    background-color:aliceblue;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    margin-bottom: 0;
+    display: block;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#aboutParagraph{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links{
+    position: relative;
+    text-align: center;
+    top:-34px;
+}
+#aboutHeader{
+    font-size: 2.8em;
+    color: seagreen;
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+}
+#choosingParagraph{
+    text-align: center;
+    font-size: 3em;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+#deliveryImg{
+    width: 40%;
+    float: left;
+    height: 300px;
+    border-color: brown;
+    border-style: solid;
+    border-width: 4px;
+    position: relative;
+    left: 5%;
+}
+#menuImg{
+    width: 40%;
+    height: 300px;
+    float:right;
+    border-color: brown;
+    border-style: solid;
+    border-width: 4px;
+    position: relative;
+    right: 5%;
+    bottom:49px;
+}
+#Delivery{
+font-family: Arial, Helvetica, sans-serif;
+position: relative;
+font-size: 1.2em;
+left: 21%;
+color: brown;
+}
+#menu{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 1.2em;
+    left: 32%;
+    color: brown;
+    bottom: 49px;
+}
+#noticeParagraph{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+#chooseResturantDiv
+{
+    text-align: center;
+}
+.inline{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.containerDate{
+    font-size: 20px;
+}
+#resturantsHeader{
+    font-size: 58px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: hotpink;
+    text-align: center;
+}
+#reservationButton{
+    position: relative;
+    font-size: 1.5em;
+    background-color:aquamarine;
+    width: 100%;
+    cursor: pointer;
+}
+#reservationButton:hover{
+color: white;
+border-color: white;
+}
+#foodImg{
+    width: 80%;
+    display: inline;
+align-items: center;
+text-align: center;
+align-content: center;
+position: relative;
+left: 10%;
+}
+.container2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#secondDiv{
+position: relative;
+bottom: -100px;
+}
+#contact-div{
+    position: relative;
+    text-align: center;
+}
+#contact{
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:4em;
+    font-weight: 800;
+   color:peru;
+}
+#next{
+    position: relative;
+    color: white;
+    background-image: url('../images/rightArrow.jpg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 36px;
+    width: 70px;
+    cursor: pointer;
+}
+#prev{
+    position: relative;
+    color: white;
+    background-image: url('../images/leftArrow.jpg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 36px;
+    width: 70px;
+    cursor: pointer;
+}
+#resturant{
+    font-size: 1.4em;
+    position: relative;
+    text-align: center;
+}
+#tableImg{
+    align-items: center;
+}
+#resturantImg{
+width: 100%;
+display: inline;
+align-items: center;
+text-align: center;
+}
+li::marker{
+    content: '👋';
+}
+#description{
+    position: relative;
+    text-align: center;
+    font-size: 1.2em;
+    top:-10px;
+}
+
+#nextRes{
+    position:inherit ;
+    color: white;
+    display: block;
+    left: auto;
+    align-items:50% ;
+    bottom:-5px;
+    background-image: url('../images/rightArrow.jpg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+
+}
+#prevRes{
+    position: relative;
+    color: white;
+    bottom: -5px;
+    right: auto;
+    background-image: url('../images/leftArrow.jpg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+#galleryHeader{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: darkolivegreen;
+}

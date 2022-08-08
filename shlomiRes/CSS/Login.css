@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 15%;
+    position: relative;
+    left: 43%;
+    color: red;
+    font-size: 2.5em;
+    top:-120px;
+    font-weight: 900;
+}
+
+body{
+    background-color: blue;
+    position: relative;
+    bottom: -180px;
+    font-size: 22px;
+}
+.container{
+    position: relative;
+    bottom: 100px;
+}
+#firstP{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#loginHeader{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color:rgb(232, 132, 148)
+}
+#loginForm{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+::placeholder{
+    color: greenyellow;
+}
+#email{
+    font-size: 1em;
+    width: 22%;
+}
+#password{
+    font-size: 1em;
+    width: 19%;
+}
+#Button{
+    font-size: 1em;
+    cursor: pointer;
+    background-color: green;
+    width: 15%;
+}
+Button:hover{
+    color:white;
+    border-color: white;
+}
+#regA{
+    color: purple;
+    font-weight: 700;
+}
+#regA:hover{
+    color: firebrick;
+}
