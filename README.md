@@ -1,2 +1,2 @@
 # Shlomi-restaurant
-Restaurant website-using jtml, css, javaScript
+Restaurant website-using html, css, javaScript
