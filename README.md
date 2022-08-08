@@ -1,7 +1,7 @@
 # Shlomi-restaurant
 Restaurant website-using html, css, javaScript.
 
-Main aspects:
+Main aspects(append video links):
 
 Using JSON in order to store passwords and emails in localStorage. I upgraded that with some additions:
 https://user-images.githubusercontent.com/103436003/183514666-eb4ce1f1-59aa-4291-895f-61dec3cd824e.mp4
